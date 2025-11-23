@@ -1,0 +1,36 @@
+{
+  "name": "JobSeekerAI-main",
+  "version": "1.0.0",
+  "description": "AI-powered job application agent",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jobber": "tsx src/cli.ts",
+    "setup": "tsx src/setup.ts"
+  },
+  "bin": {
+    "jobber": "./dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.23.0",
+  "dependencies": {
+    "@langchain/openai": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "langchain": "^1.0.6",
+    "pdf-parse": "^2.4.5",
+    "pino": "^10.1.0",
+    "puppeteer": "^24.31.0",
+    "xstate": "^5.24.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/pdf-parse": "^1.1.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.13"
+  }
+}

@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment variables (NEVER COMMIT)
+.env
+
+# Build output
+dist/
+build/
+*.js
+*.js.map
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test coverage
+coverage/
+
+# Memory and data files
+test_memory.json
+*.db
+
+# Screenshots (optional - uncomment if you don't want to commit screenshots)
+# screenshots/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
